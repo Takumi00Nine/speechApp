@@ -6,7 +6,7 @@
   "homepage": "./",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "env NODE_ENV='production' next build",
     "start": "next start",
     "export": "next export"
   },
